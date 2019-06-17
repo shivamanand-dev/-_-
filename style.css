@@ -1,0 +1,174 @@
+body {
+    background-color:#222;
+}
+
+.container{
+    width:100%;
+    height:330px;
+    display:grid;
+    place-items:center ;
+    position:absolute ;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+
+.dad{
+    display:grid;
+    place-items:center ;
+    position:absolute ;
+    top:30px;
+    left:15px;
+    width:200px;
+    height:220px;
+}
+
+.face{
+    background-color:#fff;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    position:absolute ;
+    top:10pt;
+}
+
+.stomach{
+    background-color:white;
+    width:75px;
+    height:110px;
+    border-radius:10px;
+    position:absolute ;
+    top:85px;
+}
+
+.leg1 , .leg2{
+    background-color:white;
+    position:absolute ;
+    width:10pt;
+    height:60pt;
+    top:150pt;
+    border-radius:10px;
+}
+
+.leg1{
+    left:50pt;
+}
+
+.leg2{
+    right:50pt;
+}
+
+.hand1 , .hand2 {
+    background-color:white;
+    width:10pt;
+    height:80px;
+    position:absolute ;
+    top:70pt;
+    border-radius:10px;
+}
+
+.hand1{
+    left:35pt;
+    transform:rotate(5deg);
+}
+
+.hand2{
+    right:35pt;
+    transform:rotate(5deg);
+}
+
+.son{
+    position:absolute ;
+    width:100pt;
+    height:150pt;
+    display:grid;
+    place-items:center;
+    top:95pt;
+    right:35pt;
+}
+
+.Face{
+    background-color:white;
+    position:absolute ;
+    width:30pt;
+    height:30pt;
+    border-radius:50%;
+    top:10pt;
+}
+
+.Stomach{
+    background-color:#fff;
+    position:absolute ;
+    width:40pt;
+    height:55pt;
+    border-radius:8px;
+    top:45pt;
+}
+
+.Leg1 , .Leg2{
+    background-color:white;
+    position:absolute ;
+    width:6pt;
+    height:45pt;
+    border-radius:6px;
+    top:105pt;
+}
+
+.Leg1{
+    left:38pt;
+}
+
+.Leg2{
+    right:38pt;
+}
+
+.Hand1 , .Hand2{
+    background-color:#fff;
+    position:absolute ;
+    width:6pt;
+    height:40pt;
+    border-radius:6px;
+}
+
+.Hand1{
+    top:35pt;
+    left:2pt;
+    transform:rotate(105deg);
+}
+
+.Hand2{
+    top:50pt;
+    right:20pt;
+    transform:rotate(-10deg);
+}
+
+.love{
+    z-index:10;
+    opacity:.9;
+    font-size:45pt;
+    font-family: cursive;
+    transform:rotate(-30deg);
+    letter-spacing:2pt;
+    word-spacing:5pt;
+    -webkit-text-fill-color:transparent ;
+    -webkit-background-clip:text;
+    background-image:linear-gradient(to right , navy , cyan , indigo , magenta);
+    animation:gradient 6s linear infinite ;
+    background-size:200% 200%;
+    background-position:30% ;
+}
+
+@keyframes gradient{
+    100%{
+        background-position:200% 200%;
+    }
+}
+
+a{
+    font-size:20pt;
+    position:absolute ;
+    bottom:0pt; 
+    background-image:linear-gradient(to top left , indigo , blue , skyblue , navy);
+    letter-spacing:5pt;
+    word-spacing:5pt;
+}
